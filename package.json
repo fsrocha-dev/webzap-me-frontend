@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.26",
     "next": "12.3.1",
+    "polished": "^4.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-breakpoints": "^11.1.1",
