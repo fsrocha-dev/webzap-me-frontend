@@ -4,16 +4,20 @@ import light from "../styles/themes/light";
 
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
-import GlobalStyle from "../styles/global";
+import AppContext from '../contexts/AppContext';
+import GlobalStyle from '../styles/global';
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider theme={light}>
-      <GlobalStyle />
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
-    </ThemeProvider>
+    <AppContext.Provider value={{}}>
+      <ThemeProvider theme={light}>
+        <GlobalStyle />
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </ThemeProvider>
+    </AppContext.Provider>
   )
 }
 
