@@ -9,13 +9,23 @@ export default createGlobalStyle`
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
   }
+
+  *::selection {
+    color: white;
+    background: ${props => props.theme.colors.green};
+  }
+
   body {
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
+    height: 100vh;
+    min-height: 100vh;
   }
+
   body html #root {
     height: 100%;
   }
+  
   body, input, textarea, select, button {
     font: 400 1rem Poppins, sans-serif;
   }
