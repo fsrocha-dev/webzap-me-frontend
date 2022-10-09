@@ -9,7 +9,10 @@ declare module 'styled-components' {
       primary: string;
       secundary: string;
 
+      gray_100: string;
+      gray_200: string;
       green: string;
+      blue: string;
 
       background: string;
       text: string;
@@ -18,6 +21,8 @@ declare module 'styled-components' {
       linkHover: string;
 
       border: string;
+
+      placeHolder: string;
     };
   }
 }

@@ -8,7 +8,10 @@ const light = {
     primary: '#f7f7f7',
     secundary: '#747474',
 
+    gray_100: '#eeeeee',
+    gray_200: '#dedede',
     green: '#36C9B9',
+    blue: '#42a5f5',
 
     background: '#fff',
     text: '#213647',
@@ -16,7 +19,9 @@ const light = {
     border: lighten(0.45, '#747474'),
 
     link: '#213647',
-    linkHover: '#36C9B9'
+    linkHover: '#36C9B9',
+
+    placeHolder: '#9ca3af'
   }
 };
 
