@@ -29,6 +29,35 @@ export default createGlobalStyle`
   body, input, textarea, select, button {
     font: 400 1rem Poppins, sans-serif;
   }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+
+    background: ${props => props.theme.colors.gray_100};
+
+    border: none;
+    border-radius: 8px;
+
+    resize: none;
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      font-size: 15px;
+      color: ${props => props.theme.colors.placeHolder};
+      opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: ${props => props.theme.colors.placeHolder};
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      font-size: 14px;
+      color: ${props => props.theme.colors.placeHolder};
+}
+  }
+
   button {
     cursor: pointer;
   }

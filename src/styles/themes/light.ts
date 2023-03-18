@@ -10,6 +10,7 @@ const light = {
 
     gray_100: '#eeeeee',
     gray_200: '#dedede',
+    red: '#f87171',
     green: '#36C9B9',
     blue: '#42a5f5',
 
