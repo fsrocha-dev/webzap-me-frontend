@@ -24,6 +24,11 @@ export const Button = styled.button`
     margin-right: 1rem;
   }
 
+  svg.close-icon {
+    color: ${props => props.theme.colors.red};
+    margin-left: 1rem;
+  }
+
   transition: 0.2s;
 
   &:hover {
