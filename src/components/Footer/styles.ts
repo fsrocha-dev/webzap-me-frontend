@@ -24,6 +24,9 @@ export const FooterContent = styled.div`
   button {
     margin-left: auto;
   }
+	a {
+		padding: 0px 5px;
+	}
 `;
 
 export const Nav = styled.nav`
