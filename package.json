@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/styled-components": "^5.1.26",
     "Devices.css": "github:marvelapp/devices.css",
+    "emoji-picker-react": "^4.4.7",
     "next": "12.3.1",
     "polished": "^4.2.2",
     "qrcode.react": "^3.1.0",
