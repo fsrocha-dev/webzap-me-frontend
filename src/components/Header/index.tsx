@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { ActiveLink } from '../ActiveLink'
-import { SignInButton } from "../SignInButton"
+import { LoginModal } from "../Modals/Login"
+import { RegisterModal } from "../Modals/Register"
 import { HeaderContainer, HeaderContent, Nav } from "./styles"
 
 export function Header() {
@@ -21,7 +22,8 @@ export function Header() {
             <a>Planos</a>
           </ActiveLink>
         </Nav>
-        <SignInButton />
+        <LoginModal />
+        <RegisterModal />
       </HeaderContent>
     </HeaderContainer>
   )
